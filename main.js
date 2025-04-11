@@ -1,4 +1,4 @@
-// main.js
+
 let nav = document.getElementById('nav');
 let menu = document.getElementById('enlaces');
 let abrir = document.getElementById('open');
