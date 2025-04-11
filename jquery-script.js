@@ -9,7 +9,6 @@ $(function () {
       $('.cont-work').filter('.' + valor).show(1000);
     }
   });
-
   const scrollToSection = (id, offset = 100) => {
     $('html, body').animate({
       scrollTop: $(id).offset().top - offset
