@@ -1,5 +1,5 @@
 $(function () {
-    // Filtro de trabajos por categoría
+   
     $('.filter').click(function () {
         $(this).addClass('active').siblings().removeClass('active');
         let valor = $(this).attr('data-nombre');
@@ -12,13 +12,11 @@ $(function () {
         }
     });
 
-    // Captura de offset de secciones para scroll suave
     let equipo = $('#equipo').offset().top,
         servicio = $('#servicio').offset().top,
         trabajo = $('#trabajo').offset().top,
         contacto = $('#contacto').offset().top;
 
-    // Recalcular offsets si la pantalla cambia de tamaño
     $(window).on('resize', function () {
         equipo = $('#equipo').offset().top;
         servicio = $('#servicio').offset().top;
@@ -26,7 +24,6 @@ $(function () {
         contacto = $('#contacto').offset().top;
     });
 
-    // Scroll suave para cada enlace
     $('#enlace-inicio').click(function (e) {
         e.preventDefault();
         $('html, body').animate({ scrollTop: 0 }, 600);
