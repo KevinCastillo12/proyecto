@@ -1,4 +1,4 @@
-/* Reset general */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   color: #333;
 }
 
-/* Loader */
+
 .centrado {
   position: fixed;
   background: #fff;
@@ -56,7 +56,7 @@ body {
   }
 }
 
-/* Navegación */
+
 .nav1 {
   background: transparent;
   position: fixed;
@@ -109,7 +109,7 @@ body {
   cursor: pointer;
 }
 
-/* Texto del encabezado */
+
 .textos {
   height: 90vh;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/hero.jpg') center/cover no-repeat;
@@ -131,7 +131,7 @@ body {
   font-weight: 300;
 }
 
-/* Secciones */
+
 main {
   max-width: 1200px;
   margin: 2rem auto;
@@ -154,7 +154,7 @@ h3 {
   color: #777;
 }
 
-/* Team */
+
 .card {
   display: flex;
   justify-content: space-around;
@@ -185,7 +185,7 @@ h3 {
   color: #3498db;
 }
 
-/* Servicios */
+
 .servicios {
   display: flex;
   justify-content: center;
@@ -207,7 +207,7 @@ h3 {
   margin-bottom: 1rem;
 }
 
-/* Trabajos */
+
 .botones-work ul {
   list-style: none;
   display: flex;
@@ -251,7 +251,7 @@ h3 {
   object-fit: cover;
 }
 
-/* Footer */
+
 footer {
   background: #2c3e50;
   color: white;
@@ -264,7 +264,7 @@ footer {
   margin: 0 0.5rem;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .enlaces {
     position: absolute;
